@@ -13,7 +13,7 @@ const clearCookie = (res) => {
     secure: true,
     sameSite: 'strict',*/
   });
-}
+};
 module.exports = {
   setRefreshTokenCookie,
   clearCookie
